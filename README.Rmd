@@ -1,7 +1,6 @@
 ---
-title: "Betteto-Activity-1"
+title: "GEO 712 Repository"
 output: github_document
-date: "2026-09-24"
 ---
 
 # About This Repository
@@ -31,7 +30,7 @@ $$
 ## Favourite Artists
 
 | Name | Achievements |
-|----|----|
+|------------------------------------|------------------------------------|
 | The Beatles | The best-selling artists of all time, with 19 No. 1 albums |
 | Michael Jackson | His album "Thriller" is the best-selling album of all time |
 | Coldplay | One of the world’s most successful modern rock bands |

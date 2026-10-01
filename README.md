@@ -1,6 +1,5 @@
-Betteto-Activity-1
+GEO 712 Repository
 ================
-2026-09-24
 
 # About This Repository
 
