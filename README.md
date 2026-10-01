@@ -2,6 +2,12 @@ Betteto-Activity-1
 ================
 2026-09-24
 
+# About This Repository
+
+This repository was created for GEOG 712. It contains activities
+completed for the course, including examples of Markdown and information
+about my research interests.
+
 # Research Interest
 
 My research interest is **tree-level biomass estimation** using [*remote

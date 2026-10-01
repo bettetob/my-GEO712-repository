@@ -4,6 +4,10 @@ output: github_document
 date: "2026-09-24"
 ---
 
+# About This Repository
+
+This repository was created for GEOG 712. It contains activities completed for the course, including examples of Markdown and information about my research interests.
+
 # Research Interest
 
 My research interest is **tree-level biomass estimation** using [*remote sensing*](https://en.wikipedia.org/wiki/Remote_sensing). I am interested in using LiDAR, RGB imagery, and machine learning to estimate the biomass of individual urban trees.
@@ -27,7 +31,7 @@ $$
 ## Favourite Artists
 
 | Name | Achievements |
-|------------------------------------|------------------------------------|
+|----|----|
 | The Beatles | The best-selling artists of all time, with 19 No. 1 albums |
 | Michael Jackson | His album "Thriller" is the best-selling album of all time |
 | Coldplay | One of the world’s most successful modern rock bands |
