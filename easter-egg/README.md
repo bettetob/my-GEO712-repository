@@ -10,7 +10,6 @@ We will use the following packages:
 library(elevatr) # To get elevation data
 library(MexBrewer) # Color palettes
 library(metR) # For contouring 
-library(showtext) # For importing fonts
 library(terra) # To work with rasters
 library(tidyverse) # Data carpentry and ggplot2
 ```
@@ -74,22 +73,11 @@ ggplot(data = popo,
   geom_contour_tanaka(sun.angle = 60, 
                       smooth = 10) + 
   scale_fill_manual(values = cols) +
- coord_equal() +
+  coord_equal() +
   theme_void() + 
   theme(legend.position = "none",
         plot.background = element_rect(color = NA,
-                                       fill = cols[6]),
-        plot.title = element_text(face = "bold",
-                                  size = 100, 
-                                  hjust = 0.5,
-                                  vjust = -6),
-        plot.subtitle = element_text(color = "black",
-                                     size = 80, 
-                                  hjust = 0.5,
-                                  vjust = -147),
-        plot.caption = element_text(size = 40,
-                                    hjust = 0.9,
-                                  vjust = 15))
+                                       fill = cols[6]))
 ```
 
 ![](README_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
