@@ -5,7 +5,15 @@ output: github_document
 
 # About This Repository
 
-This repository was created for GEOG 712. It contains activities completed for the course, including examples of Markdown and information about my research interests.
+This repository was created for [GEOG 712](https://github.com/paezha/Reproducible-Research-Workflow/tree/master). It contains activities completed for the course, including examples of Markdown and information about my research interests.
+
+# About Me
+
+## Academic Achievments
+
+BSc Environmental Science - McMaster Univeristy (2022-2026)
+
+MSc Earth and Environmental Science - McMaster University (2026-Present)
 
 # Research Interest
 
