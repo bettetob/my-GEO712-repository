@@ -10,7 +10,7 @@ Markdown and information about my research interests.
 
 # About Me
 
-renve \## Academic Achievements
+## Academic Achievements
 
 BSc Environmental Science - McMaster University (2022-2026)
 
