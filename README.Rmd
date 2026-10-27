@@ -7,6 +7,15 @@ output: github_document
 
 This repository was created for [GEOG 712](https://github.com/paezha/Reproducible-Research-Workflow/tree/master). It contains activities completed for the course, including examples of Markdown and information about my research interests.
 
+## Repository Folder Structure
+
+- **data/**: Contains data used in the activities.
+- **easter-egg/**: Contains an easter egg.
+- **renv/**: Contains files used by the `renv` package to manage the R project environment and support reproducibility.
+- **README.Rmd**: The main R Markdown file.
+- **README.md**: The rendered Markdown file generated from README.Rmd and displayed on GitHub.
+- **renv.lock**: Records the R package dependencies and versions used in the project.
+
 # About Me
 
 ## Academic Achievements
@@ -49,4 +58,13 @@ $$
 
 ```{r}
 print("Hello, World")
+```
+
+# Hamilton Tree Inventory: Spatially Matched 2018 and 2025 Records
+
+```{r example-table}
+my_data <- read.csv("data/hamilton_trees_2018_2025_final.csv")
+
+knitr::kable(head(my_data),
+             caption = "Hamilton Tree Inventory: Spatially matched tree records from the 2018 and 2025 municipal inventories.")
 ```

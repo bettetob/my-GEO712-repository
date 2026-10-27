@@ -8,6 +8,18 @@ This repository was created for [GEOG
 It contains activities completed for the course, including examples of
 Markdown and information about my research interests.
 
+## Repository Folder Structure
+
+- **data/**: Contains data used in the activities.
+- **easter-egg/**: Contains an easter egg.
+- **renv/**: Contains files used by the `renv` package to manage the R
+  project environment and support reproducibility.
+- **README.Rmd**: The main R Markdown file.
+- **README.md**: The rendered Markdown file generated from README.Rmd
+  and displayed on GitHub.
+- **renv.lock**: Records the R package dependencies and versions used in
+  the project.
+
 # About Me
 
 ## Academic Achievements
@@ -56,3 +68,24 @@ print("Hello, World")
 ```
 
     ## [1] "Hello, World"
+
+# Hamilton Tree Inventory: Spatially Matched 2018 and 2025 Records
+
+``` r
+my_data <- read.csv("data/hamilton_trees_2018_2025_final.csv")
+
+knitr::kable(head(my_data),
+             caption = "Hamilton Tree Inventory: Spatially matched tree records from the 2018 and 2025 municipal inventories.")
+```
+
+| SPECIES | COMMON.NAM | DBH | X | Y | X2018_SPECI | X2018_COMMO | X2018_DBH | Sci_2025_clean | Sci_2018_clean | Species_Match | DBH_change | IQR_Flag | annual_dbh_change |
+|:---|:---|---:|---:|---:|:---|:---|---:|:---|:---|---:|---:|:---|---:|
+| Liriodendron tulipifera | Tuliptree | 14 | 597095.1 | 4780967 | Liriodendron tulipifera | TULIP_TREE | 10 | liriodendron tulipifera | liriodendron tulipifera | 1 | 4 | keep | 0.5714286 |
+| Gymnocladus dioicus | Kentucky Coffeetree | 24 | 589197.9 | 4791364 | Gymnocladus dioicus | KENTUCKY_COFFEE_TREE | 10 | gymnocladus dioicus | gymnocladus dioicus | 1 | 14 | keep | 2.0000000 |
+| Juglans nigra | Black Walnut | 36 | 590941.2 | 4785292 | Juglans nigra | BLACK_WALNUT | 29 | juglans nigra | juglans nigra | 1 | 7 | keep | 1.0000000 |
+| Acer saccharum | Sugar Maple | 49 | 588783.9 | 4781403 | Acer saccharum | SUGAR_MAPLE | 43 | acer saccharum | acer saccharum | 1 | 6 | keep | 0.8571429 |
+| Acer platanoides | Norway Maple | 41 | 596216.3 | 4788024 | Acer platanoides | NORWAY_MAPLE | 30 | acer platanoides | acer platanoides | 1 | 11 | keep | 1.5714286 |
+| Acer platanoides | Norway Maple | 59 | 596213.5 | 4788013 | Acer platanoides | NORWAY_MAPLE | 51 | acer platanoides | acer platanoides | 1 | 8 | keep | 1.1428571 |
+
+Hamilton Tree Inventory: Spatially matched tree records from the 2018
+and 2025 municipal inventories.
